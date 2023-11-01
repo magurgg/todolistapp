@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct JsonPlaceholderAppApp: App {
+struct JsonPlaceholderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListItemView()
         }
     }
 }
